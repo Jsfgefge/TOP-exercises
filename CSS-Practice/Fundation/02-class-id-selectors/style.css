@@ -1,0 +1,21 @@
+.element1, 
+.element3, 
+.element5{
+    background-color: rgb(235, 168, 168);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#element2{
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+.element3{
+    font-size: 24px;
+}
+
+#element4{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(0,255,0);
+}
