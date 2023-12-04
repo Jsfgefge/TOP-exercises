@@ -1,0 +1,48 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 500px;
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  .title {
+    background: #e3f4ff;
+    font-size: 24px;
+    padding: 8px;
+    margin-top:0px ;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    display: block;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 8px 16px 8px;
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+    display: block;    
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;    
+    display: block;    
+    margin: auto;
+    padding: 8px 24px 8px 24px;
+    font-size: 15px;
+    font-weight: 600;
+  }
