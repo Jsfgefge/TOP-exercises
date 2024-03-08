@@ -44,11 +44,20 @@ p2.textContent = "ME TOO";
 
 pinkContainer.appendChild(p2);
 
-const btn = document.querySelector("#btn");
-btn.onclick = () => alert("Hello Wordl");
+// const btn = document.querySelector("#btn");
+// btn.onclick = () => alert("Hello Wordl");
 
 
-const btn2 = document.querySelector("#btn2");
-btn2.addEventListener('click', () => {
-    alert("Hello World");
+// const btn2 = document.querySelector("#btn2");
+// btn2.addEventListener('click', () => {
+//     alert("Hello World");
+// });
+
+
+btn2.addEventListener('click', function (e) {
+    console.log(e);
+  });
+
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
 });
